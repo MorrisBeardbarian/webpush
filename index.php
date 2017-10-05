@@ -11,6 +11,17 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <!--<link rel="stylesheet" href="css/main.css"> -->
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+        <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(["init", {
+            appId: "b8af78f0-b8d1-43b2-ba4a-8d009b5bf1b2",
+            autoRegister: true, /* Set to true to automatically prompt visitors */
+            notifyButton: {
+                enable: true /* Set to false to hide */
+            }
+        }]);
+        </script>
     </head>
     <body>
         <!--[if lt IE 11]>
